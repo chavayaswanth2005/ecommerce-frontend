@@ -33,7 +33,7 @@ const HomePage = () => {
     <div className="container">
       {/* Header */}
       <div className="header">
-<h1>E-Commerce YASH ❤️ VISHU</h1>       
+<h1>E-Commerce GANESH ❤️ NEHA</h1>       
  <div className="header-right">
           {isAuthenticated ? (
             <div className="profile-menu">
@@ -52,8 +52,8 @@ const HomePage = () => {
             </div>
           ) : (
             <>
-              <Link to="/login"><button>yash</button></Link>
-              <Link to="/signup"><button>vishuu </button></Link>
+              <Link to="/login"><button>login</button></Link>
+              <Link to="/signup"><button>sign up </button></Link>
             </>
           )}
         </div>
